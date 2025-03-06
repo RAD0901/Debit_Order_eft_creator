@@ -347,7 +347,7 @@ root.configure(bg="white")
 # Load and display the logo
 try:
     # Load and resize the logo image
-    logo_image = Image.open(r"c:\Users\ryadya\Conda\Scripts\Debit Order\bank.png")
+    logo_image = Image.open(r"C:\Users\ryadya\Conda\Scripts\DebitOrder\Final\bank.png")
     logo_image = logo_image.resize((60, 60), Image.Resampling.LANCZOS)  # Use Resampling.LANCZOS directly
     logo_photo = ImageTk.PhotoImage(logo_image)
 
